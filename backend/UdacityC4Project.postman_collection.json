@@ -21,7 +21,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos?sortBy=dueDate",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos?sortBy=createdAt",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -37,7 +37,7 @@
 							"query": [
 								{
 									"key": "sortBy",
-									"value": "dueDate"
+									"value": "createdAt"
 								}
 							]
 						}
